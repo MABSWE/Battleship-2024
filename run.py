@@ -4,6 +4,8 @@ Import random
 
 def print_board(board, show_ships=False):
     print("01234")
+    for i, row in enumerate(board):
+        display_row = ["S" if cell == "S" and show_ships else cell for cell in row]
 
 # Function for players turn
 
