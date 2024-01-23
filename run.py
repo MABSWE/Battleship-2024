@@ -2,6 +2,9 @@ Import random
 
 # Function to create the game board
 
+def print_board(board, show_ships=False):
+    print("01234")
+
 # Function for players turn
 
 # Function for guess for the row and col
