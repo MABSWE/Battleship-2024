@@ -8,6 +8,9 @@ def print_board(board, show_ships=False):
         display_row = ["S" if cell == "S" and show_ships else cell for cell in row]
         print(f"{i} |{' '.join(display_row)}|")
         print("")
+        
+# Function for genereate ships
+def generate_ships(board):
 
 # Function for players turn
 
