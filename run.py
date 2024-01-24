@@ -29,5 +29,21 @@ def generate_ships(board):
 # Function for computers turn
 
 # Function to display the rules of the game
+def display_rules()
+print("\n\nPlay Battleship 2024")
+input("Press Enter to start game...")
+print("Welcome to Battleship 2024!")
+print("\nRules:")
+print("1. The game board is a 5x5 grid")
+print("2. Your battleships are hidden on your board, marked as S")
+print("3. Hits are marked with * and misses with X")
+print("4. You take turns guessing the coordinates to hit the computer's battleships")
+print("5. The game continues until either you or the computer sink all the battleships")
+print("6. You and the computer each have 3 battleships")
+print("7. Top left corner is row: 0, col: 0\n")
+
+print("Have fun and good luck!")
 
 # Main logic
+def main():
+display_rules()
