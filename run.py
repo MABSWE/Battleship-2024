@@ -1,14 +1,15 @@
-Import random
+import random
 
 # Function to create the game board
-
 def print_board(board, show_ships=False):
-    print("01234")
+    print("   0 1 2 3 4")
     for i, row in enumerate(board):
-        display_row = ["S" if cell == "S" and show_ships else cell for cell in row]
+        display_row = [
+            "S" if cell == "S" and show_ships else cell
+            for cell in row]
         print(f"{i} |{' '.join(display_row)}|")
         print("")
-        
+
 # Function for genereate ships
 def generate_ships(board):
 
