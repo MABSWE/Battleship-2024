@@ -12,6 +12,13 @@ def print_board(board, show_ships=False):
 
 # Function for genereate ships
 def generate_ships(board):
+    for _ in range(3):
+        row = random.randint(0, 4)
+        col = random.randint(0, 4)
+        while board[row][col] == "S"
+        row = random.randint(0, 4)
+        col = random.randint(0, 4)
+        board[row][col] = "S"
 
 # Function for players turn
 
