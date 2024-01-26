@@ -32,7 +32,10 @@ def player_turn(board):
 
 # Function for guess for the row and col
 if 0 <=guess_row < 5 and 0 <= guess_col < 5:
-    
+    if board[guess_row][guess_col] == "S":
+        print("You hit the computer's Battleship!")
+        board[guess_row][guess_col] = "*"
+        return True
 
 
 # Function to see if the guess contains a ship
