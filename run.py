@@ -36,6 +36,10 @@ if 0 <=guess_row < 5 and 0 <= guess_col < 5:
         print("You hit the computer's Battleship!")
         board[guess_row][guess_col] = "*"
         return True
+        else:
+            print("You Missed!")
+            board[guess_row][guess_col] = "X"
+            return False
 
 
 # Function to see if the guess contains a ship
