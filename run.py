@@ -21,6 +21,9 @@ def generate_ships(board):
         board[row][col] = "S"
 
 # Function for players turn
+def player_turn(board):
+    print("Its Your Turn!")
+    try:
 
 # Function for guess for the row and col
 
