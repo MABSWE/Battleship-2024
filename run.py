@@ -29,7 +29,11 @@ def player_turn(board):
         except ValueError:
             print("Wrong Input. Please Enter A Number.")
             return player_turn(board)
+
 # Function for guess for the row and col
+if 0 <=guess_row < 5 and 0 <= guess_col < 5:
+    
+
 
 # Function to see if the guess contains a ship
 
