@@ -24,7 +24,11 @@ def generate_ships(board):
 def player_turn(board):
     print("Its Your Turn!")
     try:
-
+        guess_row = int(input("Guess Row (0-4): "))
+        guess_col = int(input("Guess Col (0-4): "))
+        except ValueError:
+            print("Wrong Input. Please Enter A Number.")
+            return player_turn(board)
 # Function for guess for the row and col
 
 # Function to see if the guess contains a ship
