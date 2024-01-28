@@ -40,8 +40,9 @@ if 0 <=guess_row < 5 and 0 <= guess_col < 5:
             print("You Missed!")
             board[guess_row][guess_col] = "X"
             return False
-
-
+else:
+        print("Yout missed the ocean. Please try again.")
+        return player_turn(board)
 # Function to see if the guess contains a ship
 
 # Function for computers turn
