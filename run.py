@@ -56,6 +56,14 @@ else:
 print("Computer's Turn!")
 comp_guess_row = random.randint(0, 4)
 comp_guess_col = random.randint(0, 4)
+
+if board[comp_guess_row][comp_guess_col] == "S":
+    print("The computer hit your battleship!")
+    board[comp_guess_row][comp_guess_col] = "*"
+    return True
+else:
+    print("The computer missed!")
+    return False
 # Function to display the rules of the game
 
 
