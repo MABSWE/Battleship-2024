@@ -46,7 +46,7 @@ if 0 <= guess_row < 5 and 0 <= guess_col < 5:
         else:
         print("You Missed!")
         board[guess_row][guess_col] = "X"
-            return False
+        return False
 else:
     print("Yout missed the ocean. Please try again.")
     return player_turn(board)
@@ -123,6 +123,6 @@ while True:
     if play_again != 'yes':
         print("Thanks for playing! Bye!")
         break
-    
+
 if __name__ == "__main__":
     main()
