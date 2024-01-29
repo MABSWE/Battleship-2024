@@ -94,3 +94,8 @@ display_rules()
 player_name = input("Enter your name: ")
 player_score = 0
 computer_score = 0
+
+while True:
+    player_board = [["O" for _ in range(5)] for _ in range(5)]
+    computer_board = [["O" for _ in range(5)] for _ in range(5)]
+    generate_ships(player_board)
