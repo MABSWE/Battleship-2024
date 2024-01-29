@@ -99,3 +99,9 @@ while True:
     player_board = [["O" for _ in range(5)] for _ in range(5)]
     computer_board = [["O" for _ in range(5)] for _ in range(5)]
     generate_ships(player_board)
+
+    while True:
+        print(f"\n{player_name}'s Board:")
+        print_board(player_board)
+        print("\nComputer's Board:")
+        print_board(computer_board)
