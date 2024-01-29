@@ -118,3 +118,8 @@ while True:
 
     print/("\nScores:")
     print(f"{player_name}: {player_score} | Computer: {computer_score}")
+
+    play_again = input("Do you want to play again? (yes/no): ").lower()
+    if play_again != 'yes':
+        print("Thanks for playing! Bye!")
+        break
