@@ -19,9 +19,9 @@ def generate_ships(board):
     for _ in range(3):
         row = random.randint(0, 4)
         col = random.randint(0, 4)
-        while board[row][col] == "S"
-        row = random.randint(0, 4)
-        col = random.randint(0, 4)
+        while board[row][col] == "S":
+            row = random.randint(0, 4)
+            col = random.randint(0, 4)
         board[row][col] = "S"
 
 # Function for players turn
@@ -44,8 +44,8 @@ if 0 <= guess_row < 5 and 0 <= guess_col < 5:
         board[guess_row][guess_col] = "*"
         return True
         else:
-            print("You Missed!")
-            board[guess_row][guess_col] = "X"
+        print("You Missed!")
+        board[guess_row][guess_col] = "X"
             return False
 else:
     print("Yout missed the ocean. Please try again.")
@@ -53,7 +53,9 @@ else:
 # Function to see if the guess contains a ship
 
 # Function for computers turn
-
+print("Computer's Turn!")
+comp_guess_row = random.randint(0, 4)
+comp_guess_col = random.randint(0, 4)
 # Function to display the rules of the game
 
 
