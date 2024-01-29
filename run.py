@@ -50,7 +50,6 @@ if 0 <= guess_row < 5 and 0 <= guess_col < 5:
 else:
     print("Yout missed the ocean. Please try again.")
     return player_turn(board)
-# Function to see if the guess contains a ship
 
 # Function for computers turn
 print("Computer's Turn!")
@@ -64,6 +63,7 @@ if board[comp_guess_row][comp_guess_col] == "S":
 else:
     print("The computer missed!")
     return False
+
 # Function to display the rules of the game
 
 
@@ -91,3 +91,6 @@ def main():
 
 
 display_rules()
+player_name = input("Enter your name: ")
+player_score = 0
+computer_score = 0
