@@ -105,3 +105,8 @@ while True:
         print_board(player_board)
         print("\nComputer's Board:")
         print_board(computer_board)
+
+        player_result = player_turn(computer_board)
+        if player_result:
+            player_score += 1
+            break
