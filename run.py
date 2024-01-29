@@ -43,7 +43,7 @@ if 0 <= guess_row < 5 and 0 <= guess_col < 5:
         print("You hit the computer's Battleship!")
         board[guess_row][guess_col] = "*"
         return True
-        else:
+    else:
         print("You Missed!")
         board[guess_row][guess_col] = "X"
         return False
@@ -77,8 +77,10 @@ print("\nRules:")
 print("1. The game board is a 5x5 grid")
 print("2. Your battleships are hidden on your board, marked as S")
 print("3. Hits are marked with * and misses with X")
-print("4. You take turns guessing the coordinates to hit the computer's battleships")
-print("5. The game continues until either you or the computer sink all the battleships")
+print("4. You take turns guessing the coordinates to hit the computer's "
+      "battleships")
+print("5. The game continues until either you or the computer "
+      "sink all the battleships")
 print("6. You and the computer each have 3 battleships")
 print("7. Top left corner is row: 0, col: 0\n")
 
@@ -88,12 +90,11 @@ print("Have fun and good luck!")
 
 
 def main():
+    display_rules()
+    player_name = input("Enter your name: ")
+    player_score = 0
+    computer_score = 0
 
-
-display_rules()
-player_name = input("Enter your name: ")
-player_score = 0
-computer_score = 0
 
 while True:
     player_board = [["O" for _ in range(5)] for _ in range(5)]
