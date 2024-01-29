@@ -110,3 +110,8 @@ while True:
         if player_result:
             player_score += 1
             break
+
+        computer_result = computer_turn(player_board)
+        if computer_result:
+            computer_score += 1
+            break
