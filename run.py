@@ -115,3 +115,6 @@ while True:
         if computer_result:
             computer_score += 1
             break
+
+    print/("\nScores:")
+    print(f"{player_name}: {player_score} | Computer: {computer_score}")
