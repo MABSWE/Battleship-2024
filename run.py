@@ -123,3 +123,6 @@ while True:
     if play_again != 'yes':
         print("Thanks for playing! Bye!")
         break
+    
+if __name__ == "__main__":
+    main()
