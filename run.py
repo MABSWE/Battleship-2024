@@ -1,6 +1,8 @@
 import random
 
 # Function to create the game board
+
+
 def print_board(board, show_ships=False):
     print("   0 1 2 3 4")
     for i, row in enumerate(board):
@@ -11,6 +13,8 @@ def print_board(board, show_ships=False):
         print("")
 
 # Function for genereate ships
+
+
 def generate_ships(board):
     for _ in range(3):
         row = random.randint(0, 4)
@@ -21,6 +25,8 @@ def generate_ships(board):
         board[row][col] = "S"
 
 # Function for players turn
+
+
 def player_turn(board):
     print("Its Your Turn!")
     try:
@@ -30,8 +36,9 @@ def player_turn(board):
             print("Wrong Input. Please Enter A Number.")
             return player_turn(board)
 
+
 # Function for guess for the row and col
-if 0 <=guess_row < 5 and 0 <= guess_col < 5:
+if 0 <= guess_row < 5 and 0 <= guess_col < 5:
     if board[guess_row][guess_col] == "S":
         print("You hit the computer's Battleship!")
         board[guess_row][guess_col] = "*"
@@ -41,14 +48,18 @@ if 0 <=guess_row < 5 and 0 <= guess_col < 5:
             board[guess_row][guess_col] = "X"
             return False
 else:
-        print("Yout missed the ocean. Please try again.")
-        return player_turn(board)
+    print("Yout missed the ocean. Please try again.")
+    return player_turn(board)
 # Function to see if the guess contains a ship
 
 # Function for computers turn
 
 # Function to display the rules of the game
+
+
 def display_rules()
+
+
 print("\n\nPlay Battleship 2024")
 input("Press Enter to start game...")
 print("Welcome to Battleship 2024!")
@@ -64,5 +75,9 @@ print("7. Top left corner is row: 0, col: 0\n")
 print("Have fun and good luck!")
 
 # Main logic
+
+
 def main():
+
+
 display_rules()
