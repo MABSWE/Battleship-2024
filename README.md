@@ -6,6 +6,29 @@ This Python script brings to life the classic Battleship game in a text-based fo
 **Developer: Marat Akbar Boyev**
 [Visit live website](link goes here)
 
+# Table of Contents
+
+
+- [How to Play Battleship 2024](#how-to-play-battleship-2024)
+    - [Rules](#rules)
+    - [Game Controls](#game-controls)
+
+- [Features](#features)
+    - [Existing Features](#existing-features)
+
+- [Data Model](#data-model)
+
+- [Testing](#testing)
+    - [Bugs](#bugs)
+        - [Solved Bugs](#solved-bugs)
+        - [Remaining Bugs](#remaining-bugs)
+
+- [Validator Testing](#validator-testing)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+
 ## How to play Battleship 2024
 
 Welcome to Battleship 2024! This is a simple implementation of the classic Battleship game in Python.
