@@ -4,7 +4,52 @@ This Python script brings to life the classic Battleship game in a text-based fo
 
 
 **Developer: Marat Akbar Boyev**
+[Visit live website](link goes here)
 
-## Table of Contents
+## How to play Battleship 2024
 
-## How to play
+Welcome to Battleship 2024! This is a simple implementation of the classic Battleship game in Python.
+
+
+1. The game board is a 5x5 grid.
+2. Your battleships are hidden on your board, marked as 'S'.
+3. Hits are marked with '*', and misses with 'X'.
+4. You take turns guessing the coordinates to hit the computer's battleships.
+5. The game continues until either you or the computer sink all the battleships.
+6. You and the computer each have 3 battleships.
+7. The top left corner is row: 0, col: 0.
+
+#### Rules
+
+- Each player, including the computer, has a game board with hidden battleships.
+- The goal is to sink all the opponent's battleships before they sink yours.
+- You and the computer take turns guessing coordinates to attack.
+
+#### Game Controls
+
+- When prompted, enter the row and column to make your guess.
+- Rows and columns are numbered from 0 to 4.
+
+Enjoy playing Battleship 2024! If you have any questions or feedback, feel free to reach out.
+
+## Features
+
+### Existing Features
+
+## Data Model
+
+## Testing
+
+### Bugs
+
+#### Solved Bugs
+
+### Remaining Bugs
+
+## Validator Testing
+
+## Deployment
+
+## Credits
+
+
